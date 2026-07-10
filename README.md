@@ -1,1 +1,1 @@
-# metasploitable2-docs
+# metasploitable2-walkthrough
