@@ -77,7 +77,7 @@ The target is running a vulnerable DistCC service on TCP port 3632 and is a vali
 
 <div align="center">
 
-<img src="./docs/ports/3632-distccd/screenshots/distccd-1.png" alt="RustScan showing DistCC on port 3632" width="900"/>
+<img src="./screenshots/distccd-1.png" alt="RustScan showing DistCC on port 3632" width="900"/>
 
 **Figure 1:** RustScan identifies TCP port 3632 running the DistCC service.
 
