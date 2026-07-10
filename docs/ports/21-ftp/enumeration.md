@@ -22,16 +22,7 @@ nmap 192.168.56.108
 
 Example output:
 
-```
-21/tcp   open   ftp
-22/tcp   open   ssh
-23/tcp   open   telnet
-80/tcp   open   http
-139/tcp  open   netbios-ssn
-445/tcp  open   microsoft-ds
-3306/tcp open   mysql
-...
-```
+<img width="850" height="672" alt="Screenshot 2026-07-10 123829" src="https://github.com/user-attachments/assets/609a15ef-cd03-4bbf-99f5-7458d74e6a2f" />
 
 The scan revealed that **FTP (Port 21)** is open.
 
@@ -47,10 +38,7 @@ nmap -p 21 -sV -O 192.168.56.108
 
 Example:
 
-```
-PORT   STATE SERVICE VERSION
-21/tcp open  ftp     vsftpd 2.3.4
-```
+<img width="1092" height="397" alt="Screenshot 2026-07-10 123904" src="https://github.com/user-attachments/assets/8e77ded4-0b85-4588-a0f5-c97a63302206" />
 
 The scan also provides operating system detection.
 
@@ -70,6 +58,8 @@ Search public vulnerability databases such as:
 - CVE Database
 - Exploit Database
 - NVD
+
+<img width="1477" height="770" alt="Screenshot 2026-07-10 123954" src="https://github.com/user-attachments/assets/c9ff4b44-fa33-49a4-a96d-6f9586580469" />
 
 Research indicates that **vsftpd 2.3.4** contains a well-known backdoor vulnerability in the intentionally vulnerable version included with Metasploitable 2.
 
