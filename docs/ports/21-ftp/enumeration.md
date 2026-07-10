@@ -2,7 +2,7 @@
 
 > **Lab Environment:** Metasploitable 2 (Authorized Lab)
 >
-> **Target IP:** `192.168.56.108`
+> **Target IP:** `Meta-ip`
 
 ---
 
@@ -17,7 +17,7 @@ Identify the FTP service running on the target, enumerate its version, research 
 Perform a basic Nmap scan to discover open ports.
 
 ```bash
-nmap 192.168.56.108
+nmap <Target-ip>
 ```
 
 Example output:
@@ -33,7 +33,7 @@ The scan revealed that **FTP (Port 21)** is open.
 Perform version detection.
 
 ```bash
-nmap -p 21 -sV -O 192.168.56.108
+nmap -p 21 -sV -O <Target-ip>
 ```
 
 Example:
